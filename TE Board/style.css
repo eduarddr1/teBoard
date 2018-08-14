@@ -1,0 +1,113 @@
+/*MANDATORY FOR REMOVING WHITE SPACE*/
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+
+header{
+  width: 100%;
+  height: 4.688em;
+  background-color: #f5f5f5;
+
+}
+.headerLogo{
+  position: absolute;
+  display: inline-block;
+}
+.headerLogoImg{
+  width: 150px;
+  padding: 20px 0 10px 30px;
+}
+.headerSearch{
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  top: 10px;
+}
+.headerSearchBar{
+  border: 1px solid grey;
+  width: 350px;
+  padding: 13px 13px 13px 13px;
+  background-color: #f2f7fa;
+  border-radius: 5px;
+}
+.headerNav{
+  position: relative;
+  top: 25px;
+  float: right;
+  display: inline-block;
+}
+.navItem{
+  margin-right: 50px;
+  display: inline-block;
+  font-size: 15px;
+  text-decoration: none;
+}
+.navItem:hover{
+  box-shadow:  0 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 rgba(0, 0, 0, 0.19);
+}
+.navItemText{
+  text-decoration: none !important;
+  color: #454f59;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.navItemText:hover{
+  color: #96bf48 !important;
+}
+.btn{
+  background-color: #96bf48 !important;
+  border: none !important;
+}
+
+
+.clipboardBtn{
+  margin-top: 30px;
+}
+
+.teContainer{
+  margin-top: 30px;
+}
+
+.box {
+  background:#fff;
+  transition:all 0.2s ease;
+  border:2px dashed #dadada;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-clip: padding-box;
+  padding:0 20px 20px 20px;
+  min-height:340px;
+}
+
+.box:hover {
+  border:2px solid #525C7A;
+}
+
+.box span.box-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.box .box-content {
+  padding: 16px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.box .box-content p {
+  color:#515c66;
+  text-transform:none;
+}

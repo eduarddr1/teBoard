@@ -1,0 +1,29 @@
+@media only screen and (max-width: 425px) {
+  header{
+    height: 5em;
+  }
+  .headerLogoImg{
+    width: 150px;
+    padding: 20px 0 0 10px;
+  }
+}
+@media only screen and (max-width: 425px){
+  header{
+    width: 105% !important;
+    height: 140px;
+  }
+  .text-center{
+    padding-right: 0px !important;
+  }
+  .headerSearch{
+    top: 10%;
+  }
+  .headerLogoImg{
+    margin-left: 80%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .headerNav{
+    display: none !important;
+  }
+}
